@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.button {
+  background-color: #382f5a;
+  height: 50px;
+  width: 250px;
+  border: 1.5px solid #d4d2db;
+  color: #d4d2db;
+  border-radius: 6px;
+  font-size: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .button {
+    height: 30px;
+    width: 160px;
+    margin: 5px;
+    font-size: 18px;
+  }
+}

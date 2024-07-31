@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  height: 500px;
+  width: 80%;
+  border-radius: 12px;
+  padding: 30px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #c7d2fe;
+  font-weight: 700;
+  margin: 10px;
+}
+.para {
+  font-family: 'Roboto';
+  color: #7c3aed;
+  font-size: 18px;
+  background-color: #c7d2fe;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  align-self: center;
+  outline: none;
+  border: opx solid #c7d2fe;
+}
+.balence-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.balence {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #585076;
+  font-weight: 900;
+}
+.ruppes {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #c7d2fe;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #585076;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #c7d2fe;
+}
+.debit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.error {
+  color: #ff0000;
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .name-container {
+    padding-top: 10px;
+  }
+  .name {
+    font-size: 18px;
+    margin: 3px;
+  }
+  .para {
+    font-size: 14px;
+    margin: 3px;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    border: opx solid #c7d2fe;
+  }
+  .balence {
+    font-size: 16px;
+  }
+  .ruppes {
+    font-size: 20px;
+  }
+  .paragraph {
+    font-size: 13px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .debit-container {
+    flex-wrap: wrap;
+  }
+}
